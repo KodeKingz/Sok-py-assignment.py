@@ -30,11 +30,11 @@ result = input(f"Your average for your {num_of_courses} courses is:  {avg}")
 
 #average calculator
 if avg >= 90  and avg <= 100:
-    print("your grade is A+")
+    print("your grade is A++")
 if avg >= 80 and avg <=89:
-    print("your grade is B")
+    print("your grade is B++")
 if avg >= 70 and avg <=79:
-    print("your grade is C")
+    print("your grade is C+")
 if avg >= 60 and avg <= 69:
     print("your grade is D")
 if avg < 60:
