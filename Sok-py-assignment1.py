@@ -26,6 +26,10 @@ for num in course_mark:
     avg = total/num_of_courses
 result = input(f"Your average for your {num_of_courses} courses is:  {avg}")
 
+average = round(total/num_of_courses,2)
+
+#print(f"Your average for your {num_of_courses} courses is: {average}")
+
 
 #average calculator
 if avg >= 90  and avg <= 100:
