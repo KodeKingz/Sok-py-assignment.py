@@ -1,6 +1,6 @@
 #select number of courses
 num_of_courses = int(input("How many courses did you finish?"))
-#print(num_of_courses)
+
 
 
 #counter of courses
@@ -13,20 +13,19 @@ while int(counter) <= num_of_courses:
 #Array loops
 for elem in course_mark:
     print(elem)
-#print(course_mark)
-    #print(counter)
 
+#totals
 total = 0
 for number in course_mark:
     total = total + number
-    #print(total)
+    
 
 #average calculation
 avg = 0
 for num in course_mark:
     avg = total/num_of_courses
 result = input(f"Your average for your {num_of_courses} courses is:  {avg}")
-#print("your average for your courses is:" + str(avg))
+
 
 #average calculator
 if avg >= 90  and avg <= 100:
